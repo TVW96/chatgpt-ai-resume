@@ -1,0 +1,22 @@
+{
+  "stylelint.validate": [
+    "css"
+  ],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit"
+  },
+
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+
+  "files.exclude": {
+    "test-results": true,
+    "playwright-report": true
+  },
+
+  "search.exclude": {
+    "test-results": true,
+    "playwright-report": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run static validation",
+      "type": "npm",
+      "script": "test:static",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Playwright tests",
+      "type": "npm",
+      "script": "test:browser",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run full test suite",
+      "type": "npm",
+      "script": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start local website",
+      "type": "npm",
+      "script": "serve",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Check links",
+      "type": "npm",
+      "script": "test:links",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Lighthouse",
+      "type": "npm",
+      "script": "test:lighthouse",
+      "problemMatcher": []
+    }
+  ]
+}
